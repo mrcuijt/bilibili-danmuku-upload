@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 3MB
+      resolve-lazily: true
+      max-file-size: 5MB
+      max-request-size: 10MB
